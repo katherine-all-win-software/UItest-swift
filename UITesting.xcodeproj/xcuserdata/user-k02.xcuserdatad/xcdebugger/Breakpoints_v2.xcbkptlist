@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B47FA780-14B3-4A2F-B0A6-AF3080DE3FF8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCF4603E-61FC-40C4-9C54-E6D5C032847B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITestingUITests/UITestingUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "testAddNoiseMaker()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BBED50E-DC94-44FA-8913-D5A360C06E9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITestingUITests/UITestingUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "testAddNoiseMaker()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3BBED50E-DC94-44FA-8913-D5A360C06E9D - 44a654ce1ae554bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testAddNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1731">
+               </Location>
+               <Location
+                  uuid = "3BBED50E-DC94-44FA-8913-D5A360C06E9D - 44a654ce1ae5549b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testAddNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1493">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2797F329-F5B7-4AAF-BBE0-18A9C6439749"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITestingUITests/UITestingUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "testAddNoiseMaker()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2797F329-F5B7-4AAF-BBE0-18A9C6439749 - 44a654ce1ae5545d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testAddNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1747">
+               </Location>
+               <Location
+                  uuid = "2797F329-F5B7-4AAF-BBE0-18A9C6439749 - 44a654ce1ae5545d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testAddNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1731">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2ECC58AA-0D3B-4895-BC55-98B32D84ACF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITestingUITests/UITestingUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "testAddNoiseMaker()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2ECC58AA-0D3B-4895-BC55-98B32D84ACF0 - 44a654ce1ae5547e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testAddNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1759">
+               </Location>
+               <Location
+                  uuid = "2ECC58AA-0D3B-4895-BC55-98B32D84ACF0 - 44a654ce1ae5547e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testAddNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1747">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA064BB0-2B5E-42B6-8528-5796547D7FB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITestingUITests/UITestingUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testDeleteNoiseMaker()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CA064BB0-2B5E-42B6-8528-5796547D7FB0 - 83496760bca0c035"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testDeleteNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1969">
+               </Location>
+               <Location
+                  uuid = "CA064BB0-2B5E-42B6-8528-5796547D7FB0 - 83496760bca0c035"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingUITests.UITestingUITests.testDeleteNoiseMaker() -&gt; ()"
+                  moduleName = "UITestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user-k02/Downloads/ios-tutorials-ui-testing/UITestingUITests/UITestingUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1950">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
