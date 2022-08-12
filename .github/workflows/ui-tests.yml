@@ -13,3 +13,16 @@ jobs:
         run: swift build
       - name: Run test
         run: swift test
+        
+      - name: iOS build setup
+        run: |
+          xcodebuild build-for-testing -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator, name=iPhone 12' #-allowProvisioningUpdates
+          
+      - name: testing ... iPhone 8
+        run: xcodebuild test-without-building -schemw affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name=iPhone 8'
+        
+      - name: testing ... iPhone12
+        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name iPhone 12'
+        
+      - name: testing ... iPhone 12 Pro Max
+        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulaor,name=iPhone 12 Pro Max'
