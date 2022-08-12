@@ -1,1 +1,15 @@
+name: Swift
 
+on: push
+
+jobs: 
+  build: 
+    
+    runs-on: macos-lastest
+    
+    steps:
+      - uses: action/checkout@v3
+      - name: Build
+        run: swift build
+      - name: Run test
+        run: swift test
