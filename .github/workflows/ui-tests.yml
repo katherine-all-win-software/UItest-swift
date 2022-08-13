@@ -8,11 +8,8 @@ jobs:
     runs-on: macOS-latest
     
     steps:
-#      - name: Checkout
-#       uses: action/checkout@v2
-#    - name: CocoaPod Install
-#     run: pod install
-        
+      - name: Checkout
+        uses: action/checkout@v2
       - name: Build
         run: swift build
       - name: Run test
