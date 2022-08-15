@@ -15,6 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with: 
           repository: lopezkatherine/UItest-swift
+          Username: lopezkatherine
           token: ${{ secrets.SECRETOUI }}
           ref: main
         
