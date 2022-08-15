@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with: 
           repository: lopezkatherine/UItest-swift
-          token: ${{ secrets.SECRETOUI }}
+          #token: ${{ secrets.SECRETOUI }}
           ref: test
         
       - name: iOS build setup
