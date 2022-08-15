@@ -8,6 +8,10 @@ jobs:
     runs-on: macOS-latest
     
     steps:
+      - name: Clone repository with https
+        run: |
+          git clone https://github.com/lopezkatherine/UItest-swift
+          
       - name: Checkout
         uses: action/checkout@v2
         with: 
