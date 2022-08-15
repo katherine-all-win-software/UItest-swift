@@ -26,7 +26,7 @@ jobs:
       #  run: xcodebuild test-without-building -schemw affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name=iPhone 8'
         
       - name: testing ... iPhone12
-        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name iPhone 12'
+        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name=iPhone 12'
         
       - name: testing ... iPhone 12 Pro Max
         run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulaor,name=iPhone 12 Pro Max'
