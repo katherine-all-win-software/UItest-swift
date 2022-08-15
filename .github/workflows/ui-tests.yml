@@ -3,8 +3,7 @@ name: Swift
 on: push
 
 jobs: 
-  build: 
-    
+  build:   
     runs-on: macOS-latest
     
     steps:
@@ -13,25 +12,22 @@ jobs:
           git clone https://github.com/lopezkatherine/UItest-swift
           
       - name: Checkout
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
         with: 
           repository: lopezkatherine/UItest-swift
-          token: ${{ secrets.SECRETOUI }}
+          #token: ${{ secrets.SECRETOUI }}
           ref: main
-#      - name: Build
-#        run: swift build
-#      - name: Run test
-#        run: swift test
         
       - name: iOS build setup
         run: |
-          xcodebuild build-for-testing -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator, name=iPhone 12' #-allowProvisioningUpdates
+          xcodebuild build-for-testing -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator, name=iPhone 12 Pro' #-allowProvisioningUpdates
           
-      - name: testing ... iPhone 8
-        run: xcodebuild test-without-building -schemw affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name=iPhone 8'
+     # - name: testing ... iPhone 8
+     #   run: xcodebuild test-without-building -schemw affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name=iPhone 8'
         
-      - name: testing ... iPhone12
-        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name iPhone 12'
-        
-      - name: testing ... iPhone 12 Pro
-        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulaor,name=iPhone 12 Pro Max'
+    # - name: testing ... iPhone12
+    #   run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name=iPhone 12'
+       
+      - name: testing ... iPhone 12 Pro 
+        run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulaor,name=iPhone 12 Pro'
+
