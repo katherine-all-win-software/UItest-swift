@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Clone repository ith https
         run: |
-          got clone https://github.com/lopezkatherine/UItest-swift
+          git clone https://github.com/lopezkatherine/UItest-swift
           
       - name: Checkout
         uses: actions/checkout@v2
