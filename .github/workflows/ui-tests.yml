@@ -3,21 +3,20 @@ name: Swift
 on: push
 
 jobs: 
-  build: 
-    
+  build_simulator:     
     runs-on: macOS-latest
     
     steps:
+      - name: Clone repository ith https
+        run: |
+          got clone https://github.com/lopezkatherine/UItest-swift
+          
       - name: Checkout
         uses: action/checkout@v2
         with: 
           repository: lopezkatherine/UItest-swift
           token: ${{ secrets.SECRETOUI }}
           ref: main
-#      - name: Build
-#        run: swift build
-#      - name: Run test
-#        run: swift test
         
       - name: iOS build setup
         run: |
