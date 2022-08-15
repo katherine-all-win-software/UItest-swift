@@ -18,8 +18,8 @@ jobs:
           #token: ${{ secrets.SECRETOUI }}
           ref: main
         
-      #- name: iOS build setup
-      #  run: |
+      - name: iOS build setup
+        run: |
           xcodebuild build-for-testing -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator, name=iPhone 12 Pro' #-allowProvisioningUpdates
           
      # - name: testing ... iPhone 8
