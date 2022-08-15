@@ -3,7 +3,7 @@ name: Swift
 on: push
 
 jobs: 
-  build_simulator:     
+  build:   
     runs-on: macOS-latest
     
     steps:
@@ -16,7 +16,7 @@ jobs:
         with: 
           repository: lopezkatherine/UItest-swift
           token: ${{ secrets.SECRETOUI }}
-          ref: main
+          #ref: main
         
       - name: iOS build setup
         run: |
