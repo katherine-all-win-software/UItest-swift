@@ -33,5 +33,5 @@ jobs:
       - name: testing ... iPhone12
         run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulator,name iPhone 12'
         
-      - name: testing ... iPhone 12 Pro Max
+      - name: testing ... iPhone 12 Pro
         run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'plataform=iOS Simulaor,name=iPhone 12 Pro Max'
