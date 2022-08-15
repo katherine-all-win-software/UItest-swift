@@ -12,7 +12,7 @@ jobs:
           got clone https://github.com/lopezkatherine/UItest-swift
           
       - name: Checkout
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
         with: 
           repository: lopezkatherine/UItest-swift
           token: ${{ secrets.SECRETOUI }}
