@@ -16,7 +16,7 @@ jobs:
         with: 
           repository: lopezkatherine/UItest-swift
           #token: ${{ secrets.SECRETOUI }}
-          ref: test
+          ref: main
         
       - name: iOS build setup
         run: |
